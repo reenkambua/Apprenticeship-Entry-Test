@@ -1,6 +1,7 @@
 
 <!-- QUESTION ONE
 Write a function that returns the second-largest number in a given list of integers. -->
+QUESTION ONE
 
 ![Q1](/screenshots/Q1.png)
 Convert the list to a set to remove duplicates.
@@ -12,9 +13,14 @@ Return the second element.
 <!-- QUESTION TWO
 Explain how you would optimize a page that loads too slowly. Mention at least three causes and how you’d fix each. -->
 
+QUESTION TWO
+
+
 Cause	                                Fix
 Large image sizes                Compress and use optimized formats (WebP, lazy loading).
+
 Too many HTTP requests           Combine files (CSS/JS bundling), use CDN, caching.
+
 Unoptimized JavaScript           Minify scripts, defer non-critical JS, use async loading.
 
 
@@ -23,6 +29,8 @@ Unoptimized JavaScript           Minify scripts, defer non-critical JS, use asyn
 Explain or show code for:
 Fetching and displaying the user’s name and email.
 Handling the loading and error states. -->
+
+QUESTION THREE
 ![Q3](/screenshots/Q3.png)
 
 print("Loading...") shows that data is being fetched.
@@ -43,6 +51,8 @@ try...except → handles network or request errors.
 
 Write a short function to calculate the total revenue -->
 
+
+QUESTION FOUR
 ![Q4](/screenshots/Q4.png)
 
 
@@ -57,6 +67,9 @@ for i in range(len(numbers)):
         numbers.remove(i)
 print(numbers) -->
 
+
+
+QUESTION FIVE
  <!-- 1. What’s wrong? -->
 The code incorrectly removes items using index values, not the actual numbers. This causes unexpected behavior.
 
@@ -72,6 +85,9 @@ To remove even numbers correctly,that is print only non-even numbers
 Using list comprehension avoids modifying a list while iterating, which prevents skipping elements.
 Filters out even numbers correctly.
 
+
+
+QUESTION SIX
 
 <!--QUESTION SIX: Explain how you would use Git to collaborate on a team project with other developers.
  Mention at least: -->
