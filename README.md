@@ -3,6 +3,11 @@
 Write a function that returns the second-largest number in a given list of integers. -->
 
 ![Q1](/screenshots/Q1.png)
+Convert the list to a set to remove duplicates.
+
+Sort in descending order.
+
+Return the second element.
 
 <!-- QUESTION TWO
 Explain how you would optimize a page that loads too slowly. Mention at least three causes and how you’d fix each. -->
@@ -57,6 +62,7 @@ The code incorrectly removes items using index values, not the actual numbers. T
 
 <!-- 2. What will it output? -->
 ![Q5 a](/screenshots/Q5%20a.png)
+Output of original code
 
 <!-- 3. Corrected version: -->
 To remove even numbers correctly,that is print only non-even numbers
