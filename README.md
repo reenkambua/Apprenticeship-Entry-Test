@@ -23,7 +23,7 @@ Unoptimized JavaScript           Minify scripts, defer non-critical JS, use asyn
 Explain or show code for:
 Fetching and displaying the user’s name and email.
 Handling the loading and error states. -->
-
+![Q3](/screenshots/Q3.png)
 
 print("Loading...") shows that data is being fetched.
 
