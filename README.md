@@ -42,6 +42,9 @@ requests.get() → sends a GET request to the API.
 try...except → handles network or request errors.
 
 
+
+
+QUESTION FOUR
 <!-- QUESTION FOUR:  A small store wants to calculate total sales from this dataset:
 [
   {"item": "Pen", "price": 20, "quantity": 3},
@@ -52,7 +55,7 @@ try...except → handles network or request errors.
 Write a short function to calculate the total revenue -->
 
 
-QUESTION FOUR
+
 ![Q4](/screenshots/Q4.png)
 
 
