@@ -1,9 +1,7 @@
 <!-- QUESTION ONE
 Write a function that returns the second-largest number in a given list of integers. -->
 
-![Q1](./screenshots/Q1.png)
-
-
+![Q1](/screenshots/Q1.png)
 
 <!-- QUESTION TWO
 Explain how you would optimize a page that loads too slowly. Mention at least three causes and how you’d fix each. -->
@@ -39,7 +37,7 @@ try...except → handles network or request errors.
 
 Write a short function to calculate the total revenue -->
 
-![Q4](./screenshots/Q4.png)
+![Q4](/screenshots/Q4.png)
 
 
 Loops through each item and multiply price by quantity.
@@ -57,12 +55,12 @@ print(numbers) -->
 The code incorrectly removes items using index values, not the actual numbers. This causes unexpected behavior.
 
 <!-- 2. What will it output? -->
-![Q5 a](./screenshots/Q5 a.png)
+![Q5 a](/screenshots/Q5%20a.png)
 
 <!-- 3. Corrected version: -->
 To remove even numbers correctly,that is print only non-even numbers
 
-![Q5 b](./screenshots/Q5 b.png)
+![Q5 b](/screenshots/Q5%20b.png)
 
 Using list comprehension avoids modifying a list while iterating, which prevents skipping elements.
 Filters out even numbers correctly.
